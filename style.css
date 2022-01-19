@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bananas {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: black 1px dashed;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.ellie {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border: black 1px dashed;
+}
+
+.don {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border: black 1px dashed;
+}
