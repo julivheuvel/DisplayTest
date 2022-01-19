@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+
+/* outermost parent container */
 .container {
     background-color: aquamarine;
     width: 80%;
     margin: 0 auto;
     height: 800px;
     display: flex;
+
+    /* side to side */
     justify-content: space-between;
+
+    /* up and down */
     align-items: center;
 }
 
